@@ -1,9 +1,10 @@
+```
 ├───server
 │       server.py
 └───worker
         work.py
-
-'''python
+```
+```python
 #server.py
 import sys
 sys.path.append('..')
@@ -20,10 +21,9 @@ def call_hello():
     logging.info('server finished')
 
 call_hello()
-'''
+```
 
-'''
-'''python
+```python
 #worker.py
 import logging
 def hello():
@@ -31,4 +31,4 @@ def hello():
     print('hello\n')
     logging.info('worker end')
     return 'hello'
-'''
+```
